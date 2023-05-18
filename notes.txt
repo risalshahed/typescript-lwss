@@ -1,0 +1,22 @@
+********** Installation & Confoguration
+- Install Node JS
+- 
+
+
+void vs undefined
+void means null/ empty i.e. the variable doesn't exist!
+undefined means the variable exists but its value is not defined
+
+
+watch TS always and compiled the updates into JS
+********** tsc -w
+
+console.log('hello');
+compile TypeScript File (script.ts) to JavaScript File (script.js)
+go to terminal -> cd "Our_Working_Directory"
+then write -> tsc TYPESCRIPT_FILENAME; e.g -> tsc script.ts
+
+BUT barbar emne fileName likhe TS to JS convert kra jhamela; so...
+go to terminal -> cd "Our_Working_Directory"
+then write -> tsc --init
+it creates a tsconfig.json file
